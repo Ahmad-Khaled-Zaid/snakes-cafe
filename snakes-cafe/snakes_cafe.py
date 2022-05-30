@@ -63,4 +63,4 @@ while customer_input != "quit":
     # print the customer order
     for element in menu:
         if element["counter"] > 0:
-            print(f'\n{element["counter"]} order of {element["name"]} have been added to your meal')
+            print(f'\n** {element["counter"]} order of {element["name"]} have been added to your meal **')
